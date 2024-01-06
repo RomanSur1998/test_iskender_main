@@ -12,6 +12,7 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 import NewaCard from "../../components/NewsCard/NewaCard";
 import BlockTitle from "../../components/BlockTitle/BlockTitle";
 import AddressCard from "../../components/AddressCard/AddressCard";
+import Footer from "../../components/Footer/Footer";
 
 const MainPage = () => {
   const swiperRef = useRef(null);
@@ -36,7 +37,6 @@ const MainPage = () => {
           <ActionIcon />
         </div>
         <div>
-          <h2>Категории</h2>
           <BlockTitle title={"Категории"} />
           <div className={styles.Catrgory}>
             {/* Здесь можно отрендерить данные карточки через map из redux или запроса */}
@@ -229,6 +229,7 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

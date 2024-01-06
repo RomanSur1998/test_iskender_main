@@ -7,6 +7,14 @@
   align-items: center;
   padding: 12px;
 }
+.imageContainer {
+  position: relative;
+}
+.like {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
 .productCardContainer h3 {
   font-size: 14px;
   font-weight: 600;

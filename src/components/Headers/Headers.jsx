@@ -4,7 +4,6 @@ import burger from "../../assets/icons/burger.svg";
 import search from "../../assets/icons/search_icon.svg";
 import card from "../../assets/icons/card_icon.svg";
 import user from "../../assets/icons/user_icon.svg";
-
 import styles from "./Headers.module.css";
 
 const Headers = () => {
@@ -22,7 +21,7 @@ const Headers = () => {
         </form>
         <div className={styles.rightContainer}>
           <div>
-            <span>Добро пожаловать</span>
+            <p>Добро пожаловать</p>
             <h3>Вход/Регистрация</h3>
           </div>
           <div className={styles.iconsContainer}>

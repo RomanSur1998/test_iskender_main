@@ -1,12 +1,14 @@
 import React from "react";
 import product_picture from "../../assets/pictures/product_picture.jpg";
-import styles from "./ProductCard.module.css";
 import ButtonBlock from "../ButtonBlock/ButtonBlock";
+import like_icon from "../../assets/icons/like_icon.svg";
+import styles from "./ProductCard.module.css";
 
 const ProductCard = ({ promotionPrice, isFullSet = true }) => {
   return (
     <div className={styles.productCardContainer}>
-      <div>
+      <div className={styles.imageContainer}>
+        <img src={like_icon} alt="like icon" className={styles.like} />
         <img src={product_picture} alt="product image" />
       </div>
       <p className={styles.nameProduct}>
