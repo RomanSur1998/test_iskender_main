@@ -66,3 +66,7 @@
   align-items: center;
   gap: 10px;
 }
+.hr {
+  height: 30px;
+  border-right: 1px solid #fff;
+}

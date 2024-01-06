@@ -3,6 +3,8 @@ import logo from "../../assets/icons/main_logo.svg";
 import apple from "../../assets/icons/apple_store_icon.svg";
 import google from "../../assets/icons/google_store_icon.svg";
 import whatsapp_icon from "../../assets/icons/whatsapp_icon.svg";
+import instagram from "../../assets/icons/instagram.svg";
+import logo_facebook from "../../assets/icons/logo_facebook.svg";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -68,6 +70,14 @@ const Footer = () => {
               <img src={whatsapp_icon} alt="whatsapp icon" />
             </li>
           </ul>
+        </div>
+      </div>
+      <hr className={styles.hr} />
+      <div className={styles.footerBottom}>
+        <span>© 2023 Iskender.kg - Отечественный бренд сантехники</span>
+        <div>
+          <img src={instagram} alt="instagram" />
+          <img src={logo_facebook} alt="logo facebook" />
         </div>
       </div>
     </div>

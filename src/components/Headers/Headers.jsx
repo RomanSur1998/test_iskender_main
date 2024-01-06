@@ -26,7 +26,7 @@ const Headers = () => {
           </div>
           <div className={styles.iconsContainer}>
             <img src={user} alt="user icon" />
-            <hr />
+            <div className={styles.hr} />
             <img src={card} alt="card icon" />
           </div>
         </div>

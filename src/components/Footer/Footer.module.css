@@ -7,6 +7,7 @@
   );
   height: 564px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #fff;
@@ -47,7 +48,7 @@
 .footerRight span {
   font-size: 15px;
   font-weight: 500;
-  line-height: 160%; /* 24px */
+  line-height: 160%;
 }
 .storeIcon {
   display: flex;
@@ -82,4 +83,20 @@ li {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.hr {
+  width: 1238px;
+  margin-top: 100px;
+}
+.footerBottom {
+  width: 1238px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+.footerBottom div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
