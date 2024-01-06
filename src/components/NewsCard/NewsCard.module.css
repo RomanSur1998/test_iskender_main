@@ -1,0 +1,37 @@
+.newCardContainer {
+  width: 402px;
+  height: 180px;
+  background-image: url("../../assets/pictures/background.png");
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+}
+
+.textContainer h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.textContainer p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.newsButton {
+  width: 110px;
+  height: 30px;
+  background-color: #0063a9;
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}

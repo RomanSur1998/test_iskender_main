@@ -1,0 +1,68 @@
+.productCardContainer {
+  width: 199px;
+  height: 341px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+.productCardContainer h3 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.28px;
+  text-align: start;
+}
+.nameProduct {
+  max-height: 50px;
+  margin-top: 9px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.promotionContainer {
+  width: 100%;
+  text-align: start;
+  margin-top: 4px;
+}
+.promotionPriceColor {
+  color: #f00;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.oldPrice {
+  text-decoration: line-through;
+  color: #808080;
+  font-size: 14px;
+  font-weight: 700;
+}
+.stockContainer {
+  width: 100%;
+  text-align: start;
+  margin-top: 2px;
+}
+.basePrice {
+  width: 100%;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+  margin-top: 4px;
+}
+.fullSet {
+  color: #3286c2;
+  font-size: 12px;
+  font-weight: 400;
+}
+.nonSet {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  font-weight: 400;
+}
+.inStock {
+  color: var(--green, #82cf6f);
+  font-size: 12px;
+  font-weight: 600;
+}

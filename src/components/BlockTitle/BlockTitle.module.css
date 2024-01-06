@@ -1,0 +1,15 @@
+.BlockTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.additionaly {
+  color: #3186c3;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

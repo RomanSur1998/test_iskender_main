@@ -1,0 +1,17 @@
+.ActionIconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+}
+.ActionIconContainer span {
+  font-weight: 400;
+  font-size: 12px;
+}
+.image {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,25 @@
+.CategoryCardContainer {
+  background-color: #fff;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  position: relative;
+}
+.CategoryCardContainer img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+.categoryText {
+  padding: 10px;
+}
+.categoryText h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.categoryText span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #727272;
+}
