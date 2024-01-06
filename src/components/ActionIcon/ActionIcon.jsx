@@ -11,4 +11,4 @@ const ActionIcon = () => {
   );
 };
 
-export default ActionIcon;
+export default React.memo(ActionIcon);

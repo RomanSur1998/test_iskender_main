@@ -19,4 +19,4 @@ const NewaCard = () => {
   );
 };
 
-export default NewaCard;
+export default React.memo(NewaCard);

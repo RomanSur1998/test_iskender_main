@@ -1,5 +1,4 @@
 import React from "react";
-import category_picture from "../../assets/pictures/category_picture.jpg";
 import example from "../../assets/pictures/example.jpg";
 import styles from "./CategoryCard.module.css";
 
@@ -15,4 +14,4 @@ const CategoryCard = () => {
   );
 };
 
-export default CategoryCard;
+export default React.memo(CategoryCard);

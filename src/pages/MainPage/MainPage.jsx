@@ -5,14 +5,14 @@ import CategoryCard from "../../components/CategoryCard/CategoryCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Virtual } from "swiper/modules";
 
-import styles from "../MainPage/MainPage.module.css";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import NewaCard from "../../components/NewsCard/NewaCard";
 import BlockTitle from "../../components/BlockTitle/BlockTitle";
 import AddressCard from "../../components/AddressCard/AddressCard";
 import Footer from "../../components/Footer/Footer";
+import styles from "../MainPage/MainPage.module.css";
 
 const MainPage = () => {
   const swiperRef = useRef(null);
@@ -39,7 +39,7 @@ const MainPage = () => {
         <div>
           <BlockTitle title={"Категории"} />
           <div className={styles.Catrgory}>
-            {/* Здесь можно отрендерить данные карточки через map из redux или запроса */}
+            {/* Здесь можно отрендерить данные карточек через map из redux или запроса */}
             <CategoryCard />
             <CategoryCard />
             <CategoryCard />
@@ -65,7 +65,7 @@ const MainPage = () => {
           </div>
 
           <div className={styles.Catrgory}>
-            {/* Здесь можно отрендерить данные карточки через map из redux или запроса */}
+            {/* Здесь можно отрендерить данные карточек через map из redux или запроса */}
             <Swiper
               ref={swiperRef}
               slidesPerView={6}
@@ -116,7 +116,7 @@ const MainPage = () => {
         <div>
           <BlockTitle title={"Новости"} additionaly={"все"} />
           <div className={styles.Catrgory}>
-            {/* Здесь можно отрендерить данные карточки через map из redux или запроса */}
+            {/* Здесь можно отрендерить данные карточек через map из redux или запроса */}
             <Swiper
               ref={swiperRef}
               slidesPerView={3}
@@ -151,7 +151,7 @@ const MainPage = () => {
           />
 
           <div className={styles.Catrgory}>
-            {/* Здесь можно отрендерить данные карточки через map из redux или запроса */}
+            {/* Здесь можно отрендерить данные карточек через map из redux или запроса */}
             <Swiper
               ref={swiperRef}
               slidesPerView={6}
@@ -203,7 +203,7 @@ const MainPage = () => {
           <BlockTitle title={"Адреса магазинов"} additionaly={"все"} />
 
           <div className={styles.Catrgory}>
-            {/* Здесь можно отрендерить данные карточки через map из redux или запроса */}
+            {/* Здесь можно отрендерить данные карточек через map из redux или из запроса */}
             <Swiper
               ref={swiperRef}
               slidesPerView={3}

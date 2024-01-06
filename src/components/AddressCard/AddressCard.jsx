@@ -21,7 +21,7 @@ const AddressCard = () => {
       </div>
       <hr />
       <div className={styles.addressMiddle}>
-        <img src={location} alt="" />
+        <img src={location} alt="location" />
         <div className={styles.addressMiddleText}>
           <p>Кыргызстан, г. Бишкек</p>
           <p>л. Турусбекова A167</p>
@@ -41,4 +41,4 @@ const AddressCard = () => {
   );
 };
 
-export default AddressCard;
+export default React.memo(AddressCard);

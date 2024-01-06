@@ -5,6 +5,7 @@ import like_icon from "../../assets/icons/like_icon.svg";
 import styles from "./ProductCard.module.css";
 
 const ProductCard = ({ promotionPrice, isFullSet = true }) => {
+  // В зависимости от приходящих данный карточка товара будет рендерить разные данный , под обычные и акционные товары
   return (
     <div className={styles.productCardContainer}>
       <div className={styles.imageContainer}>
@@ -25,7 +26,6 @@ const ProductCard = ({ promotionPrice, isFullSet = true }) => {
       <div className={styles.stockContainer}>
         <p className={styles.inStock}>В наличии</p>
         <span className={isFullSet ? styles.fullSet : styles.nonSet}>
-          {" "}
           &bull;&thinsp; Комплект
         </span>
       </div>
@@ -34,4 +34,4 @@ const ProductCard = ({ promotionPrice, isFullSet = true }) => {
   );
 };
 
-export default ProductCard;
+export default React.memo(ProductCard);
